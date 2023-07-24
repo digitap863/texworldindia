@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Texworld</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/newHome.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <section class="navAll">
+      <div class="logos">
+        <img src="./assets/texworld_logo_white.svg" alt="" />
+      </div>
+      <div class="naviLinks dropdown-content" id="myDropdown">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a class="products">
+          Products<i class="fa-sharp fa-solid fa-angle-down"></i>
+        </a>
+        <ul class="prd-drop-dwn">
+          <li><a href="uniforms.html">Uniform</a></li>
+          <li><a href="linens.html">Linens</a></li>
+        </ul>
+
+        <a href="ebroucher.html">Downloads</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="socialIcons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="hambrugerIcon">
+        <i class="fa-solid fa-bars dropbtn" onclick="myFunction()"></i>
+      </div>
+    </section>
+
+    <!-- Banner Starts  -->
+    <section class="banner">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="big-banner img-fluid"
+              src="./assets/1920_900/1920_900_1.png"
+              class="w-100"
+              alt="banner image 1"
+            />
+            <img
+              class="sml-banner img-fluid"
+              src="./assets/500_500/banner-1.webp"
+              class="w-100"
+              alt="..."
+            />
+            <div class="bannerTxt">
+              <h2>UNIFORMS</h2>
+              <p>
+                Get The Latest Uniforms For All Segments With The Best Fabric
+              </p>
+              <button>
+                Shop Now <i class="fa-sharp fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="big-banner img-fluid"
+              src="./assets/1920_900/1920_900_2.png"
+              class="w-100"
+              alt="banner image 2"
+            />
+            <img
+              class="sml-banner img-fluid"
+              src="./assets/500_500/banner-2.webp"
+              class="w-100"
+              alt="..."
+            />
+            <div class="bannerTxt">
+              <h2>LINEN</h2>
+              <p>Get The Latest Linen Coats That Best Suits You.</p>
+              <button>
+                Shop Now <i class="fa-sharp fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <div class="bannerTxt"></div> -->
+    </section>
+    <!-- Banner Ends  -->
+
+    <!-- Small Banner Starts  -->
+    <section class="smallBanner">
+      <div class="smallImagesTxt">
+        <img src="./assets/640_400/hospital-uniforms.jpg" alt="" />
+        <h2><span>HOSPITAL </span>Uniforms</h2>
+      </div>
+      <div class="smallImagesTxt">
+        <img src="./assets/640_400/hotel-1.jpg" alt="" />
+        <h2><span>HOTEL </span>Uniforms</h2>
+      </div>
+      <div class="smallImagesTxt">
+        <img src="./assets/640_400/uniforms-1.jpg" alt="" />
+        <h2><span>SCHOOL </span>Uniforms</h2>
+      </div>
+    </section>
+    <!-- Small Banner Ends  -->
+
+    <!-- Featured Products Starts  -->
+    <section class="featuredProducts">
+      <div class="fp-title">
+        <h2>FEATURED PRODUCTS</h2>
+      </div>
+      <div class="fp-items">
+        <div class="itemSingle">
+          <img src="./assets/270_300/restaurant/2.jpg" alt="" />
+          <h3>Hotel Uniforms</h3>
+        </div>
+        <div class="itemSingle">
+          <img src="./assets/270_300/hotel/1.jpg" alt="" />
+          <h3>Restaurant Uniforms</h3>
+        </div>
+        <div class="itemSingle">
+          <img src="./assets/270_300/school/4.jpg" alt="" />
+          <h3>School Uniforms</h3>
+        </div>
+        <div class="itemSingle">
+          <img src="./assets/270_300/hospital/4.jpg" alt="" />
+          <h3>Hospital Uniforms</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Products Ends  -->
+
+    <!-- Mid Banner Starts  -->
+    <section class="mid-banner">
+      <img
+        class="img-fluid mid-img"
+        src="./assets/1920_850/know-more-img.jpg"
+        alt=""
+      />
+      <img
+        class="img-fluid mid-img-sm"
+        src="./assets/500_500/banner-3.webp"
+        alt=""
+      />
+
+      <div class="mid-banner-contents">
+        <h2>ABOUT TEX WORLD</h2>
+        <p>
+          Tex world is the leading platform for quality custom products. During
+          the past 20 years Tex World has succeeded in developing its mark in
+          uniforms and developing pioneering designs to deliver reliable and
+          cost effective uniform requirements of the Hotels, Restaurants,
+          Schools, Hospitals, Clinics, office, factory and other business
+          organizations.
+        </p>
+        <button>Know More</button>
+      </div>
+    </section>
+    <!-- Mid Banner Ends  -->
+
+    <!-- Filter Products Starts  -->
+    <section class="filterProducts">
+      <div class="filtr-tabs">
+        <ul>
+          <li class="list active" data-filter="all">All</li>
+          <li class="list" data-filter="suits">SUITS</li>
+          <li class="list" data-filter="chef">CHEF</li>
+          <li class="list" data-filter="hospital">HOSPITAL</li>
+        </ul>
+      </div>
+      <div class="justLine"></div>
+      <div class="filterProductsItems" id="filterProductsItems">
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="suits"
+        >
+          <img src="./assets/270_300/suits/1.webp" alt="" />
+          <div class="itemName">
+            <h3>Item Name</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="chef"
+        >
+          <img src="./assets/270_300/restaurant/1.jpg" alt="" />
+          <div class="itemName">
+            <h3>chef</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="hospital"
+        >
+          <img src="./assets/270_300/hospital/1.jpg" alt="" />
+          <div class="itemName">
+            <h3>restaurant</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="suits"
+        >
+          <img src="./assets/270_300/suits/2.webp" alt="" />
+          <div class="itemName">
+            <h3>Item Name</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="chef"
+        >
+          <img src="./assets/270_300/restaurant/2.jpg" alt="" />
+          <div class="itemName 2">
+            <h3>chef</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="hospital"
+        >
+          <img src="./assets/270_300/hospital/2.jpg" alt="" />
+          <div class="itemName">
+            <h3>restaurant</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="suits"
+        >
+          <img src="./assets/270_300/suits/3.webp" alt="" />
+          <div class="itemName">
+            <h3>Item Name</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="chef"
+        >
+          <img src="./assets/270_300/restaurant/3.jpg" alt="" />
+          <div class="itemName 2">
+            <h3>chef</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="hospital"
+        >
+          <img src="./assets/270_300/hospital/3.jpg" alt="" />
+          <div class="itemName">
+            <h3>restaurant</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="suits"
+        >
+          <img src="./assets/270_300/suits/4.webp" alt="" />
+          <div class="itemName">
+            <h3>Item Name</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="chef"
+        >
+          <img src="./assets/270_300/restaurant/4.jpg" alt="" />
+          <div class="itemName 2">
+            <h3>chef</h3>
+          </div>
+        </div>
+
+        <div
+          class="filterProductsItem"
+          id="filterProductsItem"
+          data-item="hospital"
+        >
+          <img src="./assets/270_300/hospital/4.jpg" alt="" />
+          <div class="itemName">
+            <h3>restaurant</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Filter Products Ends  -->
+
+    <!-- Accessories Starts  -->
+    <section class="accessories">
+      <div class="accAll">
+        <div class="accBanner">
+          <img
+            class="img-fluid acc-banner"
+            src="./assets/370_492/1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="accPrdts">
+          <div class="accCard">
+            <img
+              class="img-fluid"
+              src="./images/product/accessories/acc-06.webp"
+              alt=""
+            />
+            <h3>Acc Item Name</h3>
+          </div>
+
+          <div class="accCard">
+            <img
+              class="img-fluid"
+              src="./images/product/accessories/accessories-1.webp"
+              alt=""
+            />
+            <h3>Acc Item Name</h3>
+          </div>
+
+          <div class="accCard">
+            <img
+              class="img-fluid"
+              src="./images/product/accessories/accessories-2.webp"
+              alt=""
+            />
+            <h3>Acc Item Name</h3>
+          </div>
+
+          <div class="accCard">
+            <img
+              class="img-fluid"
+              src="./images/product/accessories/accessories-3.webp"
+              alt=""
+            />
+            <h3>Acc Item Name</h3>
+          </div>
+
+          <div class="accCard">
+            <img
+              class="img-fluid"
+              src="./images/product/accessories/acc-04.webp"
+              alt=""
+            />
+            <h3>Acc Item Name</h3>
+          </div>
+
+          <div class="accCard">
+            <img
+              class="img-fluid"
+              src="./images/product/accessories/accessories-4.webp"
+              alt=""
+            />
+            <h3>Acc Item Name</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Accessories ends  -->
+
+    <!-- contact Starts  -->
+    <div class="order-now p-md-5">
+      <h3>Lets <span>TALK</span></h3>
+      <p>Contact us now to get an instant call back.</p>
+      <div class="order-now-content">
+        <form action="" class="order-now-form">
+          <p>Your Name</p>
+          <input type="text" placeholder="Type your name" />
+          <p>Phone No</p>
+          <input type="number" placeholder="Type your Phone No." />
+          <p>What Are You Looking For..?</p>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Select your item....</option>
+            <option value="1">Hotel Uniforms</option>
+            <option value="2">Hospital Uniforms</option>
+            <option value="3">Restaurant Uniforms</option>
+            <option value="1">School Uniforms</option>
+            <option value="2">Coats | Jackets</option>
+            <option value="3">Security Uniforms</option>
+          </select>
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- contact Ends  -->
+
+    <!-- Footer Starts  -->
+    <section class="footerr">
+      <div class="row footerRow">
+        <div class="col-12 col-md-4 footerCol logoCol">
+          <img src="./assets/texworld_logo.svg" alt="" />
+          <p>
+            With 20 years of expertise Tex world is the leading platform for
+            quality Uniforms for Schools, Hospitals, Bellboys, etc.
+          </p>
+        </div>
+        <div class="col-12 col-md-2 footerCol quickLinksCol">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="index.html">About</a>
+          <a href="index.html">E-Broucher</a>
+          <a href="index.html">Contact</a>
+        </div>
+        <div class="col-12 col-md-2 footerCol quickLinksCol">
+          <h3>Products</h3>
+          <a href="index.html">Uniforms</a>
+          <a href="index.html">Linens</a>
+        </div>
+        <div class="col-12 col-md-2 footerCol quickLinksCol">
+          <h3>Helps</h3>
+          <a href="index.html">Privacy Policy</a>
+          <a href="index.html">Terms Conditions</a>
+        </div>
+        <div class="col-12 col-md-2 footerCol socialLinksCol">
+          <h3>Social Links</h3>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <br />
+      <div class="footerLine"></div>
+
+      <div class="footerTags">
+        <h3>
+          Uniform Tags: <a href="index.html">Front Office Uniforms | </a>
+          <a href="index.html">School Uniforms | </a>
+          <a href="index.html">Bell Boy Uniforms | </a>
+          <a href="index.html">Doorman Uniforms | </a>
+          <a href="index.html">House Keeping Uniforms | </a>
+          <a href="index.html">Service Uniforms | </a>
+          <a href="index.html">T-Shirts | </a>
+          <a href="index.html">Utilities Uniforms | </a>
+          <a href="index.html">Kitchen Uniforms | </a>
+          <a href="index.html">Executive Uniforms | </a>
+          <a href="index.html">Drivers Uniforms | </a>
+          <a href="index.html">Kitchen Caps | </a>
+          <a href="index.html">Engineering Uniforms | </a>
+          <a href="index.html">Bow Tie & Executive Tie | </a>
+          <a href="index.html">Aprons | </a>
+          <a href="index.html">Kitchen Scarf | </a>
+          <a href="index.html">Electrician Uniforms | </a>
+          <a href="index.html">Doctor Coat | </a>
+          <a href="index.html">Cleaning Uniforms | </a>
+          <a href="index.html">Operation Gown | </a>
+          <a href="index.html">Operation Coat | </a>
+        </h3>
+        <br />
+        <h3>
+          Linen Tags: <a href="index.html">Bed Sheet | </a>
+          <a href="index.html">Pillow Cover | </a>
+          <a href="index.html">Bed Protection | </a>
+          <a href="index.html">Duvet | </a>
+          <a href="index.html">Pool Towel | </a>
+          <a href="index.html">Bath Towel | </a>
+          <a href="index.html">Hand Towel | </a>
+          <a href="index.html">Face Towel | </a>
+          <a href="index.html">Bath Robs(Gown) | </a>
+          <a href="index.html">Bed Runner | </a>
+          <a href="index.html">Satin Strip Bed Sheet | </a>
+          <a href="index.html">Table Frill | </a>
+          <a href="index.html">Table Mat | </a>
+          <a href="index.html">Table Napkin | </a>
+          <a href="index.html">Pillow | </a>
+          <a href="index.html">Blanket | </a>
+          <a href="index.html">Table Cloth | </a>
+        </h3>
+      </div>
+      <div class="bottomFootr">
+        <p>
+          Copyright © 2023 Texworldindia.com All Right Resurved | Designed By
+          Tapclone
+        </p>
+      </div>
+    </section>
+    <!-- Footer Starts  -->
+
+    <!-- All SCRIPTS -->
+
+    <!-- Bootstrap CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Navigation Dropdown Function -->
+    <script>
+      /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        const cat = document.getElementsByClassName("dropdown-content");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+
+    <!-- Filter Tab Function -->
+    <script>
+      let list = document.querySelectorAll(".list");
+      let fPItem = document.querySelectorAll(".filterProductsItem");
+
+      for (let i = 0; i < list.length; i++) {
+        list[i].addEventListener("click", function () {
+          for (let j = 0; j < list.length; j++) {
+            list[j].classList.remove("active");
+          }
+          this.classList.add("active");
+
+          let dataFilter = this.getAttribute("data-filter");
+
+          for (let k = 0; k < fPItem.length; k++) {
+            fPItem[k].classList.remove("active");
+            fPItem[k].classList.add("hide");
+
+            if (
+              fPItem[k].getAttribute("data-item") == dataFilter ||
+              dataFilter == "all"
+            ) {
+              fPItem[k].classList.remove("hide");
+              fPItem[k].classList.add("active");
+            }
+          }
+        });
+      }
+    </script>
+
+    <!-- Load More Function -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="./js/loadMore.js"></script> -->
+  </body>
+</html>
