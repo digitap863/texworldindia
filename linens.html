@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Texworld Linens</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/newLinens.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <section class="navAll">
+      <div class="logos">
+        <img src="./assets/texworld_logo.svg" alt="" />
+      </div>
+      <div class="naviLinks dropdown-content" id="myDropdown">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="products active">
+          Products<i class="fa-sharp fa-solid fa-angle-down"></i>
+        </a>
+        <ul class="prd-drop-dwn">
+          <li><a href="uniforms.html">Uniform</a></li>
+          <li><a href="linens.html">Linens</a></li>
+          <li><a href="suits.html">Suits</a></li>
+        </ul>
+
+        <a href="ebroucher.html">Downloads</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="socialIcons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="hambrugerIcon">
+        <i class="fa-solid fa-bars dropbtn" onclick="myFunction()"></i>
+      </div>
+    </section>
+    <!-- Navigation Ends -->
+
+    <!-- About Banner Starts -->
+    <section class="abtBanner">
+      <img class="img-fluid" src="./assets/1920_420/linens.webp" alt="" />
+      <h2>LINEN WORLD</h2>
+    </section>
+    <!-- About Banner Starts -->
+
+    <!-- All Products Display Starts -->
+    <section class="all-uniforms">
+      <div class="uniform-left-right">
+        <div class="uniformsleft">
+          <div class="lft-txt">
+            <h2>ALL LINEN</h2>
+            <div class="catogeries" id="filter-buttons">
+              <a class="filter-btn" data-filter="bedsheet" href="">
+                Bed Sheet
+              </a>
+
+              <a href="" class="filter-btn" data-filter="pillowcover"
+                >Pillow Cover</a
+              >
+              <a href="" class="filter-btn" data-filter="bedprotection"
+                >Bed Protection</a
+              >
+              <a href="" class="filter-btn" data-filter="duvet">Duvet</a>
+              <a href="" class="filter-btn" data-filter="pool"> Pool Towel</a>
+              <a href="" class="filter-btn" data-filter="bath">Bath Towel</a>
+              <a href="" class="filter-btn" data-filter="hand">Hand Towel</a>
+              <a href="" class="filter-btn" data-filter="face">Face Towel</a>
+              <a href="" class="filter-btn" data-filter="bathrob"
+                >Bath Robs(Gown)</a
+              >
+              <a href="" class="filter-btn" data-filter="bedrunners"
+                >Bed Runner</a
+              >
+              <a href="" class="filter-btn" data-filter="satin"
+                >Satin Strip Bed Sheet</a
+              >
+              <a href="" class="filter-btn" data-filter="frill">Table Frill</a>
+              <a href="" class="filter-btn" data-filter="mat">Table Mat</a>
+              <a href="" class="filter-btn" data-filter="napkin"
+                >Table Napkin</a
+              >
+              <a href="" class="filter-btn" data-filter="pillow">Pillow</a>
+              <a href="" class="filter-btn" data-filter="blanket">Blanket</a>
+              <a href="" class="filter-btn" data-filter="cloth">Table Cloth</a>
+
+              <a class="filter-btn" data-filter="all" href=""> Show All... </a>
+            </div>
+          </div>
+        </div>
+        <div class="uniformsright">
+          <div class="prdDisplay" id="prdDisplay">
+            <div class="flex" id="image-gallery">
+              <div class="content image-item bedsheet" data-category="bedsheet">
+                <img
+                  src="./assets/270_300/linens/bedSheets/bedSheets1.webp"
+                  alt=""
+                />
+                <h3>Bed Sheet</h3>
+              </div>
+              <div class="content image-item bedsheet" data-category="bedsheet">
+                <img
+                  src="./assets/270_300/linens/bedSheets/bedSheets2.webp"
+                  alt=""
+                />
+                <h3>Bed Sheet</h3>
+              </div>
+              <div class="content image-item bedsheet" data-category="bedsheet">
+                <img
+                  src="./assets/270_300/linens/bedSheets/bedSheets3.webp"
+                  alt=""
+                />
+                <h3>Bed Sheet</h3>
+              </div>
+              <div class="content image-item bedsheet" data-category="bedsheet">
+                <img
+                  src="./assets/270_300/linens/bedSheets/bedSheets4.webp"
+                  alt=""
+                />
+                <h3>Bed Sheet</h3>
+              </div>
+
+              <!-- Pillow Cover Uniforms -->
+              <div
+                class="content image-item pillowcover"
+                data-category="pillowcover"
+              >
+                <img
+                  src="./assets/270_300/linens/pillowCover/pillowCover1.webp"
+                  alt=""
+                />
+                <h3>Pillow Cover</h3>
+              </div>
+              <div
+                class="content image-item pillowcover"
+                data-category="pillowcover"
+              >
+                <img
+                  src="./assets/270_300/linens/pillowCover/pillowCover2.webp"
+                  alt=""
+                />
+                <h3>Pillow Cover</h3>
+              </div>
+              <div
+                class="content image-item pillowcover"
+                data-category="pillowcover"
+              >
+                <img
+                  src="./assets/270_300/linens/pillowCover/pillowCover3.webp"
+                  alt=""
+                />
+                <h3>Pillow Cover</h3>
+              </div>
+              <div
+                class="content image-item pillowcover"
+                data-category="pillowcover"
+              >
+                <img
+                  src="./assets/270_300/linens/pillowCover/pillowCover4.webp"
+                  alt=""
+                />
+                <h3>Pillow Cover</h3>
+              </div>
+
+              <!-- Bed Protection -->
+              <div
+                class="content image-item bedprotection"
+                data-category="bedprotection"
+              >
+                <img
+                  src="./assets/270_300/linens/bedProtection/bedProtection.webp"
+                  alt=""
+                />
+                <h3>Bed Protection</h3>
+              </div>
+              <div
+                class="content image-item bedprotection"
+                data-category="bedprotection"
+              >
+                <img
+                  src="./assets/270_300/linens/bedProtection/bedProtection2.webp"
+                  alt=""
+                />
+                <h3>Bed Protection</h3>
+              </div>
+
+              <!-- Duvet -->
+              <div class="content image-item duvet" data-category="duvet">
+                <img src="./assets/270_300/linens/duvet/duvet1.webp" alt="" />
+                <h3>Duvet</h3>
+              </div>
+              <div class="content image-item duvet" data-category="duvet">
+                <img src="./assets/270_300/linens/duvet/duvet2.webp" alt="" />
+                <h3>Duvet</h3>
+              </div>
+              <div class="content image-item duvet" data-category="duvet">
+                <img src="./assets/270_300/linens/duvet/duvet3.webp" alt="" />
+                <h3>Duvet</h3>
+              </div>
+              <div class="content image-item duvet" data-category="duvet">
+                <img src="./assets/270_300/linens/duvet/duvet4.webp" alt="" />
+                <h3>Duvet</h3>
+              </div>
+              <div class="content image-item duvet" data-category="duvet">
+                <img src="./assets/270_300/linens/duvet/duvet5.webp" alt="" />
+                <h3>Duvet</h3>
+              </div>
+
+              <!-- Pool Towel -->
+              <div class="content image-item pool" data-category="pool">
+                <img
+                  src="./assets/270_300/linens/poolTowel/poolTowel1.webp"
+                  alt=""
+                />
+                <h3>Pool Towel</h3>
+              </div>
+              <div class="content image-item pool" data-category="pool">
+                <img
+                  src="./assets/270_300/linens/poolTowel/poolTowel2.webp"
+                  alt=""
+                />
+                <h3>Pool Towel</h3>
+              </div>
+              <div class="content image-item pool" data-category="pool">
+                <img
+                  src="./assets/270_300/linens/poolTowel/poolTowel3.webp"
+                  alt=""
+                />
+                <h3>Pool Towel</h3>
+              </div>
+              <div class="content image-item pool" data-category="pool">
+                <img
+                  src="./assets/270_300/linens/poolTowel/poolTowel4.webp"
+                  alt=""
+                />
+                <h3>Pool Towel</h3>
+              </div>
+              <div class="content image-item pool" data-category="pool">
+                <img
+                  src="./assets/270_300/linens/poolTowel/poolTowel5.webp"
+                  alt=""
+                />
+                <h3>Pool Towel</h3>
+              </div>
+
+              <!-- Bath Towel -->
+              <div class="content image-item bath" data-category="bath">
+                <img
+                  src="./assets/270_300/linens/bathTowel/bathTowel1.webp"
+                  alt=""
+                />
+                <h3>Bath Towel</h3>
+              </div>
+              <div class="content image-item bath" data-category="bath">
+                <img
+                  src="./assets/270_300/linens/bathTowel/bathTowel2.webp"
+                  alt=""
+                />
+                <h3>Bath Towel</h3>
+              </div>
+              <div class="content image-item bath" data-category="bath">
+                <img
+                  src="./assets/270_300/linens/bathTowel/bathTowel3.webp"
+                  alt=""
+                />
+                <h3>Bath Towel</h3>
+              </div>
+              <div class="content image-item bath" data-category="bath">
+                <img
+                  src="./assets/270_300/linens/bathTowel/bathTowel4.webp"
+                  alt=""
+                />
+                <h3>Bath Towel</h3>
+              </div>
+
+              <div class="content image-item bath" data-category="bath">
+                <img
+                  src="./assets/270_300/linens/bathTowel/bathTowel5.webp"
+                  alt=""
+                />
+                <h3>Bath Towel</h3>
+              </div>
+
+              <!--Hand Towel -->
+              <div class="content image-item hand" data-category="hand">
+                <img
+                  src="./assets/270_300/linens/handTowel/handTowel1.webp"
+                  alt=""
+                />
+                <h3>Hand Towel</h3>
+              </div>
+              <div class="content image-item hand" data-category="hand">
+                <img
+                  src="./assets/270_300/linens/handTowel/handTowel2.webp"
+                  alt=""
+                />
+                <h3>Hand Towel</h3>
+              </div>
+              <div class="content image-item hand" data-category="hand">
+                <img
+                  src="./assets/270_300/linens/handTowel/handTowel3.webp"
+                  alt=""
+                />
+                <h3>Hand Towel</h3>
+              </div>
+              <div class="content image-item hand" data-category="hand">
+                <img
+                  src="./assets/270_300/linens/handTowel/handTowel4.webp"
+                  alt=""
+                />
+                <h3>Hand Towel</h3>
+              </div>
+
+              <!-- Face Towel -->
+              <div class="content image-item face" data-category="face">
+                <img
+                  src="./assets/270_300/linens/faceTowel/faceTowel1.webp"
+                  alt=""
+                />
+                <h3>Face Towel</h3>
+              </div>
+              <div class="content image-item face" data-category="face">
+                <img
+                  src="./assets/270_300/linens/faceTowel/faceTowel2.webp"
+                  alt=""
+                />
+                <h3>Face Towel</h3>
+              </div>
+              <div class="content image-item face" data-category="face">
+                <img
+                  src="./assets/270_300/linens/faceTowel/faceTowel3.webp"
+                  alt=""
+                />
+                <h3>Face Towel</h3>
+              </div>
+              <div class="content image-item face" data-category="face">
+                <img
+                  src="./assets/270_300/linens/faceTowel/faceTowel4.webp"
+                  alt=""
+                />
+                <h3>Face Towel</h3>
+              </div>
+
+              <!-- Bathrob -->
+              <div class="content image-item bathrob" data-category="bathrob">
+                <img
+                  src="./assets/270_300/linens/bathRobeGown/bathrobeGown1.webp"
+                  alt=""
+                />
+                <h3>Bathrobs</h3>
+              </div>
+              <div class="content image-item bathrob" data-category="bathrob">
+                <img
+                  src="./assets/270_300/linens/bathRobeGown/bathrobeGown2.webp"
+                  alt=""
+                />
+                <h3>Bathrobs</h3>
+              </div>
+              <div class="content image-item bathrob" data-category="bathrob">
+                <img
+                  src="./assets/270_300/linens/bathRobeGown/bathrobeGown3.webp"
+                  alt=""
+                />
+                <h3>Bathrobs</h3>
+              </div>
+              <div class="content image-item bathrob" data-category="bathrob">
+                <img
+                  src="./assets/270_300/linens/bathRobeGown/bathrobeGown4.webp"
+                  alt=""
+                />
+                <h3>Bathrobs</h3>
+              </div>
+              <div class="content image-item bathrob" data-category="bathrob">
+                <img
+                  src="./assets/270_300/linens/bathRobeGown/bathrobeGown5.webp"
+                  alt=""
+                />
+                <h3>Bathrobs</h3>
+              </div>
+
+              <!-- Bed Runners -->
+              <div
+                class="content image-item bedrunners"
+                data-category="bedrunners"
+              >
+                <img
+                  src="./assets/270_300/linens/bedRunners/bedrunners1.webp"
+                  alt=""
+                />
+                <h3>Bed Runners</h3>
+              </div>
+              <div
+                class="content image-item bedrunners"
+                data-category="bedrunners"
+              >
+                <img
+                  src="./assets/270_300/linens/bedRunners/bedrunners2.webp"
+                  alt=""
+                />
+                <h3>Bed Runners</h3>
+              </div>
+              <div
+                class="content image-item bedrunners"
+                data-category="bedrunners"
+              >
+                <img
+                  src="./assets/270_300/linens/bedRunners/bedrunners3.webp"
+                  alt=""
+                />
+                <h3>Bed Runners</h3>
+              </div>
+              <div
+                class="content image-item bedrunners"
+                data-category="bedrunners"
+              >
+                <img
+                  src="./assets/270_300/linens/bedRunners/bedrunners4.webp"
+                  alt=""
+                />
+                <h3>Bed Runners</h3>
+              </div>
+
+              <!-- Satin Stripe -->
+              <div class="content image-item satin" data-category="satin">
+                <img
+                  src="./assets/270_300/linens/satinStripe/satinStripe.webp"
+                  alt=""
+                />
+                <h3>Satin Stripe</h3>
+              </div>
+              <div class="content image-item satin" data-category="satin">
+                <img
+                  src="./assets/270_300/linens/satinStripe/satinStripe2.webp"
+                  alt=""
+                />
+                <h3>Satin Stripe</h3>
+              </div>
+              <div class="content image-item satin" data-category="satin">
+                <img
+                  src="./assets/270_300/linens/satinStripe/satinStripe3.webp"
+                  alt=""
+                />
+                <h3>Satin Stripe</h3>
+              </div>
+
+              <!-- Table Frill -->
+              <div class="content image-item frill" data-category="frill">
+                <img
+                  src="./assets/270_300/linens/tableFrill/tableFrill1.webp"
+                  alt=""
+                />
+                <h3>Table Frill</h3>
+              </div>
+              <div class="content image-item frill" data-category="frill">
+                <img
+                  src="./assets/270_300/linens/tableFrill/tableFrill2.webp"
+                  alt=""
+                />
+                <h3>Table Frill</h3>
+              </div>
+              <div class="content image-item frill" data-category="frill">
+                <img
+                  src="./assets/270_300/linens/tableFrill/tableFrill3.webp"
+                  alt=""
+                />
+                <h3>Table Frill</h3>
+              </div>
+              <div class="content image-item frill" data-category="frill">
+                <img
+                  src="./assets/270_300/linens/tableFrill/tableFrill4.webp"
+                  alt=""
+                />
+                <h3>Table Frill</h3>
+              </div>
+
+              <!-- Table Mat -->
+              <div class="content image-item mat" data-category="mat">
+                <img
+                  src="./assets/270_300/linens/tableMat/tableMat1.webp"
+                  alt=""
+                />
+                <h3>Table Mat</h3>
+              </div>
+              <div class="content image-item mat" data-category="mat">
+                <img
+                  src="./assets/270_300/linens/tableMat/tableMat2.webp"
+                  alt=""
+                />
+                <h3>Table Mat</h3>
+              </div>
+              <div class="content image-item mat" data-category="mat">
+                <img
+                  src="./assets/270_300/linens/tableMat/tableMat3.webp"
+                  alt=""
+                />
+                <h3>Table Mat</h3>
+              </div>
+              <div class="content image-item mat" data-category="mat">
+                <img
+                  src="./assets/270_300/linens/tableMat/tableMat4.webp"
+                  alt=""
+                />
+                <h3>Table Mat</h3>
+              </div>
+
+              <!-- Table Napkin -->
+              <div class="content image-item napkin" data-category="napkin">
+                <img
+                  src="./assets/270_300/linens/tableNapkin/tableNapkin1.webp"
+                  alt=""
+                />
+                <h3>Table Napkin</h3>
+              </div>
+              <div class="content image-item napkin" data-category="napkin">
+                <img
+                  src="./assets/270_300/linens/tableNapkin/tableNapkin2.webp"
+                  alt=""
+                />
+                <h3>Table Napkin</h3>
+              </div>
+              <div class="content image-item napkin" data-category="napkin">
+                <img
+                  src="./assets/270_300/linens/tableNapkin/tableNapkin3.webp"
+                  alt=""
+                />
+                <h3>Table Napkin</h3>
+              </div>
+              <div class="content image-item napkin" data-category="napkin">
+                <img
+                  src="./assets/270_300/linens/tableNapkin/tableNapkin4.webp"
+                  alt=""
+                />
+                <h3>Table Napkin</h3>
+              </div>
+
+              <!-- Pillow -->
+              <div class="content image-item pillow" data-category="pillow">
+                <img src="./assets/270_300/linens/pillow/pillow1.webp" alt="" />
+                <h3>Pillow</h3>
+              </div>
+              <div class="content image-item pillow" data-category="pillow">
+                <img src="./assets/270_300/linens/pillow/pillow2.webp" alt="" />
+                <h3>Pillow</h3>
+              </div>
+              <div class="content image-item pillow" data-category="pillow">
+                <img src="./assets/270_300/linens/pillow/pillow3.webp" alt="" />
+                <h3>Pillow</h3>
+              </div>
+              <div class="content image-item pillow" data-category="pillow">
+                <img src="./assets/270_300/linens/pillow/pillow4.webp" alt="" />
+                <h3>Pillow</h3>
+              </div>
+
+              <!-- Blanket -->
+              <div class="content image-item blanket" data-category="blanket">
+                <img
+                  src="./assets/270_300/linens/blankets/blanket1.webp"
+                  alt=""
+                />
+                <h3>Blanket</h3>
+              </div>
+              <div class="content image-item blanket" data-category="blanket">
+                <img
+                  src="./assets/270_300/linens/blankets/blanket2.webp"
+                  alt=""
+                />
+                <h3>Blanket</h3>
+              </div>
+              <div class="content image-item blanket" data-category="blanket">
+                <img
+                  src="./assets/270_300/linens/blankets/blanket3.webp"
+                  alt=""
+                />
+                <h3>Blanket</h3>
+              </div>
+              <div class="content image-item blanket" data-category="blanket">
+                <img
+                  src="./assets/270_300/linens/blankets/blanket4.webp"
+                  alt=""
+                />
+                <h3>Blanket</h3>
+              </div>
+
+              <!-- Table Cloth -->
+              <div class="content image-item cloth" data-category="cloth">
+                <img
+                  src="./assets/270_300/linens/tableCloth/tableCloth1.webp"
+                  alt=""
+                />
+                <h3>Table Cloth</h3>
+              </div>
+              <div class="content image-item cloth" data-category="cloth">
+                <img
+                  src="./assets/270_300/linens/tableCloth/tableCloth2.webp"
+                  alt=""
+                />
+                <h3>Table Cloth</h3>
+              </div>
+              <div class="content image-item cloth" data-category="cloth">
+                <img
+                  src="./assets/270_300/linens/tableCloth/tableCloth3.webp"
+                  alt=""
+                />
+                <h3>Table Cloth</h3>
+              </div>
+              <div class="content image-item cloth" data-category="cloth">
+                <img
+                  src="./assets/270_300/linens/tableCloth/tableCloth4.webp"
+                  alt=""
+                />
+                <h3>Table Cloth</h3>
+              </div>
+            </div>
+
+            <!-- <a href="#" id="load-more-btn">Load More</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- All Products Display Ends -->
+
+    <!-- Footer Starts  -->
+    <section class="footerr">
+      <div class="row footerRow">
+        <div class="col-12 col-md-4 footerCol logoCol">
+          <img src="./assets/texworld_logo.svg" alt="" />
+          <p>
+            With 20 years of expertise Tex world is the leading platform for
+            quality Uniforms for Schools, Hospitals, Bellboys, etc.
+          </p>
+        </div>
+        <div class="col-12 col-md-2 footerCol quickLinksCol">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="ebroucher.html">E-Broucher</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="col-12 col-md-2 footerCol quickLinksCol">
+          <h3>Products</h3>
+          <a href="uniforms.html">Uniforms</a>
+          <a href="linens.html">Linens</a>
+          <a href="suits.html">Suits</a>
+        </div>
+        <div class="col-12 col-md-2 footerCol quickLinksCol">
+          <h3>Helps</h3>
+          <a href="privacypolicy.html">Privacy Policy</a>
+          <a href="termsandconditions.html">Terms Conditions</a>
+        </div>
+        <div class="col-12 col-md-2 footerCol socialLinksCol">
+          <h3>Social Links</h3>
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <br />
+      <div class="footerLine"></div>
+
+      <div class="footerTags">
+        <h3>
+          Uniform Tags: <a href="uniforms.html">Front Office Uniforms | </a>
+          <a href="uniforms.html">School Uniforms | </a>
+          <a href="uniforms.html">Bell Boy Uniforms | </a>
+          <a href="uniforms.html">Doorman Uniforms | </a>
+          <a href="uniforms.html">House Keeping Uniforms | </a>
+          <a href="uniforms.html">Service Uniforms | </a>
+          <a href="uniforms.html">T-Shirts | </a>
+          <a href="uniforms.html">Utilities Uniforms | </a>
+          <a href="uniforms.html">Kitchen Uniforms | </a>
+          <a href="uniforms.html">Executive Uniforms | </a>
+          <a href="uniforms.html">Drivers Uniforms | </a>
+          <a href="uniforms.html">Kitchen Caps | </a>
+          <a href="uniforms.html">Engineering Uniforms | </a>
+          <a href="uniforms.html">Bow Tie & Executive Tie | </a>
+          <a href="uniforms.html">Aprons | </a>
+          <a href="uniforms.html">Kitchen Scarf | </a>
+          <a href="uniforms.html">Electrician Uniforms | </a>
+          <a href="uniforms.html">Doctor Coat | </a>
+          <a href="uniforms.html">Cleaning Uniforms | </a>
+          <a href="uniforms.html">Operation Gown | </a>
+          <a href="uniforms.html">Operation Coat | </a>
+        </h3>
+        <br />
+        <h3>
+          Linen Tags: <a href="linens.html">Bed Sheet | </a>
+          <a href="linens.html">Pillow Cover | </a>
+          <a href="linens.html">Bed Protection | </a>
+          <a href="linens.html">Duvet | </a>
+          <a href="linens.html">Pool Towel | </a>
+          <a href="linens.html">Bath Towel | </a>
+          <a href="linens.html">Hand Towel | </a>
+          <a href="linens.html">Face Towel | </a>
+          <a href="linens.html">Bath Robs(Gown) | </a>
+          <a href="linens.html">Bed Runner | </a>
+          <a href="linens.html">Satin Strip Bed Sheet | </a>
+          <a href="linens.html">Table Frill | </a>
+          <a href="linens.html">Table Mat | </a>
+          <a href="linens.html">Table Napkin | </a>
+          <a href="linens.html">Pillow | </a>
+          <a href="linens.html">Blanket | </a>
+          <a href="linens.html">Table Cloth | </a>
+        </h3>
+      </div>
+      <div class="bottomFootr">
+        <p>
+          Copyright © 2023 Texworldindia.com All Right Resurved | Designed By
+          Tapclone
+        </p>
+      </div>
+    </section>
+    <!-- Footer Starts  -->
+
+    <!-- All SCRIPTS -->
+
+    <!-- filter items -->
+    <script src="./js/onclick.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Navigation Dropdown Function -->
+    <script>
+      /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        const cat = document.getElementsByClassName("dropdown-content");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
