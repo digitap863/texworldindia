@@ -343,6 +343,10 @@ body {
     width: 30%;
     height: auto;
   }
+
+  .abtBanner h2 {
+    font-size: 7vw;
+  }
 }
 
 /* Footer */

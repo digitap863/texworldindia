@@ -409,6 +409,12 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .abtBanner h2 {
+    font-size: 7vw;
+  }
+}
+
 /* Footer */
 
 .footerr {

@@ -244,7 +244,7 @@ body {
     background-color: transparent;
     position: relative;
     right: -230px;
-    top: -22px;
+    top: -2px;
     height: auto;
     /* display: none; */
   }
@@ -329,6 +329,9 @@ body {
 }
 
 @media (max-width: 500px) {
+  .abtBanner h2 {
+    font-size: 7vw;
+  }
   .abt-txt-img {
     display: flex;
     flex-direction: column;
