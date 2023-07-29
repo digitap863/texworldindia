@@ -221,6 +221,35 @@ body {
   }
 }
 
+@media (max-width: 500px) {
+  .navAll {
+    height: 80px;
+  }
+
+  .logos {
+    width: 150px;
+  }
+
+  .socialIcons i {
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #504e4e;
+  }
+
+  .hambrugerIcon {
+    text-shadow: 1px 1px 3px #ffffff;
+  }
+
+  .prd-drop-dwn {
+    background-color: transparent;
+    position: relative;
+    right: -230px;
+    top: -22px;
+    height: auto;
+    /* display: none; */
+  }
+}
+
 /* About Banner */
 
 .abtBanner {
